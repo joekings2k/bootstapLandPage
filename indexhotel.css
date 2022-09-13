@@ -1,0 +1,238 @@
+
+.firstbackground{
+    
+    background-image: url('./bgbeg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.signup{
+    border-right:2px solid white ;
+    
+}
+.dateTime{
+    height: 35px;
+    border-radius:7px;
+    border: none;
+    width: 100%;
+}
+.dateTime:active{
+    border: none;
+    box-shadow: 5px 5px 5px 5px rgb(134, 134, 246);
+    
+}
+.signcontainer > .nav-link {
+    color: aliceblue;
+}
+.signcontainer > .nav-link:hover{
+    text-decoration: underline;
+    color: aliceblue;
+}
+.incred{
+    color: white;
+    font-size: 5vw;
+    font-weight: 700;
+    width: 60vw;
+}
+.where1{
+    color: #ab5dd2;
+   
+}
+.savet{
+    font-size: 25px;
+    color: white;
+}
+.gobtn{
+    margin-left: 20px;
+}
+.formwhere1{
+    margin-right: 20px;
+}
+
+.formsearch > .me-2{
+    border-radius:0px;
+}
+
+.covidinfo{
+    width: 60vw;
+}
+.santalos{
+    margin-top: 9px;
+}
+.santalos > .me-3:hover {
+    text-decoration: underline;
+}
+.Santa{
+    border-right:2px solid white ;
+    padding-right: 6px;
+}
+.fa-solid ,.fa-regular {
+    font-size: 60px;
+    color: #B441A1;
+}
+.occasion{
+    background-color: #272932;
+
+}
+.phoneps{
+    width: 50%;
+}
+.btn-primary{
+    width: 50%;
+    border: none;
+}
+.store{
+    background-color: #5F05B3;
+}
+.innerstore{
+    border-right: 1px rgb(128, 125, 125) solid ;
+}
+.ongo{
+    text-shadow: 1px 1px black;
+}
+.bi-star-fill ,.bi-star-half{
+    color: white;
+    font-size: 26px;
+}
+.reviews{
+    font-size: 20px;
+    width: 20vw ;
+    
+}
+.backgradient{
+    background: linear-gradient(rgb(224, 236, 245), rgb(225, 222, 253), rgb(255, 231, 218));
+    
+}
+.appsto{
+    font-size: 30px;
+}
+.row > .col{
+    font-size: 23px;
+}
+.apost{
+    font-size: 30px;
+}
+.iconsnew{
+    border-top:2px black solid;
+    border-bottom: 2px black solid ;
+}
+.newws{
+    margin-top: 10px;
+}
+.traveldesdiv{
+    background-color: #22242f;
+}
+.covered{
+    font-size: 22px;
+    width: 90%;
+}
+.traveldes{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+.traveldes:hover{
+    text-decoration: underline;color: white;
+    
+}
+.plays{
+    background-color: #8648AD;
+}
+.innerplays{
+    width:50%;
+}
+.planlss{
+    font-size: 45px;
+    font-weight: 700;
+    text-shadow: 1px 1px black;
+}
+.innercol6{
+    width: 50%;
+}
+.ours{
+    text-decoration: none;
+    color: #9D91A3;
+    font-size: 20px;
+}
+.ours:hover{
+    color: #9D91A3;
+}
+.social{
+    color: #9D91A3;
+}
+.fa-brands{
+    margin-right: 12px;
+    color: #9D91A3;
+    font-size: 20px;
+}
+.kant{
+    color: #272932;
+}
+.cookie{
+    width: 150px;
+    height: 45px;
+    border: 2px solid rgb(130, 225, 130);
+    color: lightgreen;
+}
+.cookie:hover{
+    background-color: lightgreen;
+    color: white;
+    text-decoration: underline;
+}
+.fa-copyright{
+    font-size: 19px;
+    color: #9D91A3;
+}
+.foothot{
+    font-size: 13px;
+}
+
+
+@media (max-width: 576px) {
+    .formsearch{
+        flex-direction: column;
+    }
+    .iconsgla{
+        flex-direction: column;
+    }
+    .gobtn{
+        margin: 0px;
+    }
+    .store{
+        flex-direction: column;
+    }
+    .reviewicon{
+        flex-direction: column;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .iconsnew{
+        border: none;
+    }
+    .iconsnewin{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .outter{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+        
+        
+    }
+    .footout{
+        width: 90vw; 
+    }
+    
+    .lastfoot{
+        justify-content: center;
+        
+    }
+
+}
+
+
