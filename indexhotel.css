@@ -198,6 +198,9 @@
     .gobtn{
         margin: 0px;
     }
+    .dateTime{
+        width: 100%;
+    }
     .store{
         flex-direction: column;
     }
